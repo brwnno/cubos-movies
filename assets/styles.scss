@@ -1,0 +1,20 @@
+// Mixins.
+@use 'scss/mixins/deprecate' as deprecate;
+@use 'scss/mixins/breakpoints' as breakpoints;
+
+// Base.
+@use 'scss/base/reset' as reset;
+@use 'scss/base/variables' as variables;
+@use 'scss/base/page' as page;
+
+// Component.
+@use 'scss/components/filters' as filters;
+@use 'scss/components/cards' as cards;
+@use 'scss/components/icon' as icon;
+@use 'scss/components/pagination' as pagination;
+@use 'scss/components/filtersOthers' as filtersOthers;
+@use 'scss/components/movieDetails' as movieDetails;
+
+// Layout.
+@use 'scss/layout/header' as header;
+@use 'scss/layout/footer' as footer;

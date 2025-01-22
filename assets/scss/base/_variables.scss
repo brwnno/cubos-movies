@@ -1,0 +1,39 @@
+$base-dark: #121113;
+$base-light: #efeaea;
+$base-blur: #ebeaf814;
+
+$primary-default: #8e4ec6;
+$primary-hover: #9a5cd0;
+$primary-active: #8457aa;
+$primary-disabled: #6f6d78;
+
+$secondary-default: #b744f714;
+$secondary-hover: #c150ff2e;
+$secondary-active: #b412f90a;
+$secondary-disabled: #ebeaf814;
+
+$text-hover: #b4b4b4;
+$text-title: #eeeeee;
+
+$bar-primary: #ffe000;
+$bar-disable: #ffffff45;
+
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(18, 17, 19, 1) 0%,
+  rgba(18, 17, 19, 0.46) 46%,
+  rgba(18, 17, 19, 1) 100%
+);
+
+$bg-img-banner: '../img/backgropund-krists-luhaers-unsplash.png';
+
+$pad-space: 2rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

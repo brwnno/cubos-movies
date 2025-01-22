@@ -1,0 +1,16 @@
+@use '../base/variables' as vars;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f1e6fd30;
+  padding: 1rem;
+  background: vars.$base-dark;
+  position: relative;
+  z-index: 9999;
+  picture {
+    img {
+      margin: 1rem;
+    }
+  }
+}

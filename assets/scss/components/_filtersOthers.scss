@@ -1,0 +1,77 @@
+@use '../base/variables' as vars;
+
+.filters-container {
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 4px;
+  width: 60%;
+  background: rgba(183, 68, 247, 0.0784313725);
+  position: relative;
+  z-index: 9999;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: vars.$text-title;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    .filter-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: vars.$text-title;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 12.8px;
+      line-height: 15.6px;
+    }
+
+    input[type='text'],
+    input[type='date'],
+    input[type='number'],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+
+      &:focus {
+        border-color: vars.$primary-default;
+        outline: none;
+      }
+    }
+    input[type='date']::-webkit-calendar-picker-indicator {
+      background-color: vars.$secondary-default;
+      border-radius: 4px;
+    }
+  }
+
+  button.apply-filters-button {
+    width: 100%;
+    padding: 10px;
+    background-color: vars.$primary-default;
+    color: vars.$text-title;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    button.apply-filters-button:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  input[type='radio'] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+  }
+}

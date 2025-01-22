@@ -1,0 +1,52 @@
+@use '../base/variables' as vars;
+
+.filters {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  object-fit: cover;
+  height: 104px;
+  gap: 0.75rem;
+  position: relative;
+  z-index: 9999;
+
+  .search-container {
+    position: relative;
+    display: inline-block;
+    width: 488px;
+
+    .search-input {
+      width: 100%;
+      padding: 1rem;
+      font-size: 16px;
+      color: #fff;
+      background-color: #333;
+      border: 1px solid #444;
+      outline: none;
+      height: 56px;
+      line-height: 40px;
+      border-radius: 4px;
+
+      &::placeholder {
+        color: #bbb;
+      }
+
+      &:focus {
+        border-color: vars.$primary-default;
+      }
+    }
+
+    .search-icon {
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      color: #bbb;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

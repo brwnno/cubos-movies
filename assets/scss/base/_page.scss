@@ -1,0 +1,48 @@
+@use 'variables' as vars;
+
+body {
+  -ms-overflow-style: scrollbar;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  @media (min-width: 320px) {
+    min-width: 320px;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  //height: 544px;
+}
+
+picture {
+  display: block;
+  img {
+    display: block;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: vars.$base-dark;
+}
+
+.content {
+  flex-grow: 1;
+}
