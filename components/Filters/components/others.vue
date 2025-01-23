@@ -89,6 +89,7 @@ const applyFilters = () => {
       <div class="filter-group">
         <label for="sort_by">Ordenar por:</label>
         <select v-model="filters.sort_by" id="sort_by">
+          <option value=""></option>
           <option
             v-for="option in sortOptions"
             :key="option.id"
@@ -131,6 +132,7 @@ const applyFilters = () => {
       <div class="filter-group">
         <label for="with_genres">Gêneros</label>
         <select v-model="filters.with_genres" id="with_genres">
+          <option value=""></option>
           <option
             v-for="option in userGenre"
             :key="option?.id"
