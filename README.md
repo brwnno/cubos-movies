@@ -1,75 +1,26 @@
-# Nuxt Minimal Starter
+# Projeto Nuxt
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este projeto foi desenvolvido utilizando o framework [Nuxt](https://nuxt.com/docs/getting-started/introduction), uma poderosa ferramenta para criar aplicações Vue.js com recursos avançados, como renderização do lado do servidor, roteamento automático e otimizações de desempenho.
 
-## Setup
+## Requisitos
 
-Make sure to install dependencies:
+Para rodar o projeto, é necessário ter o **Node.js versão 22.8.0** ou superior instalado. Além disso, você deve usar o **npm** como gerenciador de pacotes.
 
+## Instalação das Dependências
+
+Instale as dependências do projeto utilizando o comando abaixo:
 ```bash
-# npm
+# Usando npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
+# Usando yarn
 yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+## Rodando o Projeto
+Para iniciar o servidor de desenvolvimento, execute o comando abaixo:
 ```bash
-# npm
+# Usando npm
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
+# Usando yarn (mesmo que o projeto tenha sido instalado com npm, pode-se rodar com yarn também)
 yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
