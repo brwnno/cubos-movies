@@ -23,4 +23,5 @@ Para iniciar o servidor de desenvolvimento, execute o comando abaixo:
 npm run dev
 
 # Usando yarn (mesmo que o projeto tenha sido instalado com npm, pode-se rodar com yarn também)
-yarn dev
+yarn dev 
+```
