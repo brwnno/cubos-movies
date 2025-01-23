@@ -14,7 +14,7 @@ function toPercentage(value: number) {
 }
 
 const { genre } = useGenre()
-
+ useState('userGenre', () => genre)
 function FindByGenreIds(ids: any) {
   const genreIds = ids.map((id: number) => {
     const genres = genre.value.find((genreId) => genreId.id === id)

@@ -24,7 +24,7 @@ const getPages = computed(() => {
     endPage = Math.min(totalPerPage.value, pagesTotal)
   } else if (page.value === pagesTotal) {
     startPage = Math.max(1, pagesTotal - totalPerPage.value + 1)
-    endPage = pagesTotal + 1 // Ajustar para pegar um índice extra
+    endPage = pagesTotal + 1
   } else {
     startPage = page.value - halfRange
     if (startPage < 1) startPage = 1
